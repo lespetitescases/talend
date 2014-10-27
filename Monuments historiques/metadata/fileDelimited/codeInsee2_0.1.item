@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_RCDCMVyJEeS5-o0juypqQg" name="codeInsee2" dataPackage="_RCDCMlyJEeS5-o0juypqQg" Server="Localhost 127.0.0.1" FilePath="C:/Users/gpoupeau/Downloads/Codes-INSEE-communes-geolocalisees.csv" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RCDCMlyJEeS5-o0juypqQg" name="default" dataManager="_RCDCMVyJEeS5-o0juypqQg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RCDCM1yJEeS5-o0juypqQg" id="_JLc5YFyJEeS5-o0juypqQg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCNFyJEeS5-o0juypqQg" label="Insee" length="4" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCNVyJEeS5-o0juypqQg" label="Nom" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCNlyJEeS5-o0juypqQg" label="Altitude" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCN1yJEeS5-o0juypqQg" label="code_postal" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCOFyJEeS5-o0juypqQg" label="longitude_radian" length="11" precision="10" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCOVyJEeS5-o0juypqQg" label="latitude_radian" length="11" precision="10" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCOlyJEeS5-o0juypqQg" label="pop99" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RCDCO1yJEeS5-o0juypqQg" label="surface" length="5" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
