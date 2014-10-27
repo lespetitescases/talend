@@ -1,0 +1,1 @@
+﻿L'objectif de ce projet est de réaliser un mashup à partir des données sur les Monuments historiques français (un peu sur le modèle de http://labs.antidot.net/monuments/widgets/#search que j'avais réalisé avec AIF).
